@@ -1,0 +1,122 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+}
+
+header{
+    padding-left: 120px;
+}
+.profile-pic img{
+    width: 150px;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.contact-info {
+    font-size: 0.95rem;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.contact-info a {
+    color: #000;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.section-title {
+    font-size: 1.1rem;
+    border-bottom: 1px solid #000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    letter-spacing: 1px;
+}
+
+.entry {
+    margin-bottom: 15px;
+}
+
+.entry-header, .entry-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.entry-header {
+    font-size: 1.05rem;
+}
+
+ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 3px;
+    font-size: 0.95rem;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+}
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #000;
+}
+
+.separator {
+    margin: 0 15px;
+    color: #ccc;
+}
